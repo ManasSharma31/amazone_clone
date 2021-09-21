@@ -1,0 +1,23 @@
+.register {
+  margin: auto auto;
+}
+.register_container {
+  padding: 100px;
+
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+.register_container > img {
+  object-fit: contain;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.register_container > button {
+  text-transform: inherit !important;
+  color: white !important;
+  background-color: var(--amazon-color) !important;
+  margin-top: 30px;
+}
